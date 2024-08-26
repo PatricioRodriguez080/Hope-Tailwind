@@ -8,11 +8,9 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
-      <div className='px-8 py-5'>
         <Routes>
           <Route path='/' element={<Inicio />} />
         </Routes>
-      </div>
     </BrowserRouter>
   )
 }

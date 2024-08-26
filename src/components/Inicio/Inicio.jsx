@@ -1,8 +1,17 @@
 import React from 'react'
+import SectionPresentacion from './SectionPresentacion/SectionPresentacion'
+import SectionServicios from './SectionServicios/SectionServicios'
+import SectionCartaVirtual from './SectionCartaVirtual/SectionCartaVirtual'
 
 const Inicio = () => {
   return (
-    <div>Inicio</div>
+    <>
+      <SectionPresentacion />
+      <div className='bg-custom-gradient'>
+        <SectionServicios />
+        <SectionCartaVirtual />
+      </div>
+    </>
   )
 }
 
