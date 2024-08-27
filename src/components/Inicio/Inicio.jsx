@@ -2,6 +2,7 @@ import React from 'react'
 import SectionPresentacion from './SectionPresentacion/SectionPresentacion'
 import SectionServicios from './SectionServicios/SectionServicios'
 import SectionCartaVirtual from './SectionCartaVirtual/SectionCartaVirtual'
+import SectionEquipo from './SectionEquipo/SectionEquipo'
 
 const Inicio = () => {
   return (
@@ -11,6 +12,7 @@ const Inicio = () => {
         <SectionServicios />
         <SectionCartaVirtual />
       </div>
+      <SectionEquipo />
     </>
   )
 }

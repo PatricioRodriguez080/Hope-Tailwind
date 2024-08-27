@@ -12,6 +12,9 @@ export default {
           200: "#795548",
           300: "#66483D"
         },
+        crema: {
+          100: "#E8DDD9"
+        },
         'black-opacity-custom': 'rgba(0, 0, 0, 0.491)'
       },
       backgroundImage: {
@@ -20,4 +23,4 @@ export default {
     },
   },
   plugins: [],
-}
+} 
