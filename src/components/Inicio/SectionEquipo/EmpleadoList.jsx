@@ -5,7 +5,7 @@ const EmpleadoList = ({ empleados }) => {
   return (
     <>
       {empleados.map(empleado => (
-        <Empleado {...empleado} />
+        <Empleado key={empleado.id} {...empleado} />
       ))}
     </>
   )
