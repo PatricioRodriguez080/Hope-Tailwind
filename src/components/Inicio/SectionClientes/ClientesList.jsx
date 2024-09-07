@@ -2,19 +2,25 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/pagination'
-import { Pagination } from 'swiper/modules'
+import 'swiper/css/autoplay'
+import { Pagination, Autoplay } from 'swiper/modules'
 import Cliente from './Cliente'
 
 const ClientesList = ({ clientes }) => {
   return (
     <Swiper
-      slidesPerView={1}
+      slidesPerView={2}
       spaceBetween={30}
       pagination={{ clickable: true }}
-      modules={[Pagination]}
+      loop={true}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+      modules={[Pagination, Autoplay]}
     >
       {clientes.map(cliente => (
-        <SwiperSlide key={cliente.id}>
+        <SwiperSlide key={cliente.id} className='h-[350px]'>
           <Cliente {...cliente} />
         </SwiperSlide>
       ))}

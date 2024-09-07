@@ -21,7 +21,7 @@ const ClientesListContainer = () => {
   ]
 
   return (
-    <div>
+    <div className='px-4 md:px-28'>
       <ClientesList clientes={clientes} />
     </div>
   )
