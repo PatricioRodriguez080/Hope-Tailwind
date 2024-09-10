@@ -14,11 +14,11 @@ const Cliente = ({ Nombre, Opinion }) => {
         <p>{Opinion}</p>
       </div>
       <div className='mt-4'>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
       </div>
     </div>
   )

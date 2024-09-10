@@ -4,6 +4,7 @@ import SectionServicios from './SectionServicios/SectionServicios'
 import SectionCartaVirtual from './SectionCartaVirtual/SectionCartaVirtual'
 import SectionEquipo from './SectionEquipo/SectionEquipo'
 import SectionClientes from './SectionClientes/SectionClientes'
+import SectionContacto from './SectionContacto/SectionContacto'
 
 const Inicio = () => {
   return (
@@ -15,6 +16,7 @@ const Inicio = () => {
       </div>
       <SectionEquipo />
       <SectionClientes />
+      <SectionContacto />
     </>
   )
 }

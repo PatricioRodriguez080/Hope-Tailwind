@@ -20,6 +20,7 @@ export default {
       },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(180deg, rgba(121,85,72,1) 0%, rgba(163,118,102,1) 25%, rgba(186,152,140,1) 50%, rgba(209,187,179,1) 75%, rgba(232,221,217,1) 100%)',
+        'maderas-contacto': 'url(./images/fondo-section-contacto.jpg)'
       },
       fontFamily: {
         custom: '"Madimi One", sans-serif'

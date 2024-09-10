@@ -9,8 +9,8 @@ import Cliente from './Cliente'
 const ClientesList = ({ clientes }) => {
   return (
     <Swiper
-      slidesPerView={2}
-      spaceBetween={30}
+      slidesPerView={1}
+      spaceBetween={10}
       pagination={{ clickable: true }}
       loop={true}
       autoplay={{
@@ -18,6 +18,11 @@ const ClientesList = ({ clientes }) => {
         disableOnInteraction: false,
       }}
       modules={[Pagination, Autoplay]}
+      breakpoints={{
+        932: {
+          slidesPerView: 2,
+        },
+      }}
     >
       {clientes.map(cliente => (
         <SwiperSlide key={cliente.id} className='h-[350px]'>
