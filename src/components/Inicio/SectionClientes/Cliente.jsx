@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cliente = ({ Nombre, Opinion }) => {
   return (
-    <div className='bg-white-opacity-custom p-8 h-80 rounded-[30px] max-h-64'>
+    <div className='bg-white-opacity-custom p-8 h-80 rounded-[30px] max-h-[268px] md:max-h-64'>
       <div className='flex items-center'>
         <img src="./images/google.webp" className='min-w-20 p-px rounded-[50%] mr-5 border-solid border-[5px] border-marron-300' alt="cliente" />
         <div>

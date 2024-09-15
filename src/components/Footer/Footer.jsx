@@ -10,15 +10,15 @@ const Footer = () => {
         </div>
         <div className='mt-4 md:w-1/2'>
           <h3 className='text-center font-custom text-2xl'>Redes</h3>
-          <div className='flex justify-center mt-1'>
-            <a href="https://www.instagram.com/hope.maisondupain/" target="_blank"><i className="fa-brands fa-instagram mr-2"></i></a>
-            <a href="https://www.facebook.com " target="_blank"><i className="fa-brands fa-facebook mr-2"></i></a>
-            <a href="https://www.twitter.com" target="_blank"><i className="fa-brands fa-x-twitter"></i></a>
+          <div className='flex justify-center mt-1 text-2xl'>
+            <a href="https://www.instagram.com/hope.maisondupain/" target="_blank"><i className="fa-brands fa-instagram mr-2 hover:text-marron-100"></i></a>
+            <a href="https://www.facebook.com " target="_blank"><i className="fa-brands fa-facebook mr-2 hover:text-marron-100"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i className="fa-brands fa-x-twitter hover:text-marron-100"></i></a>
           </div>
         </div>
       </div>
       <div className='bg-marron-300 text-center text-white text-xl font-custom pt-5'>
-        <a href="https://www.linkedin.com/in/patricio-rodriguez-4544662a2/">©Patricio Rodriguez</a>
+        <a href="https://www.linkedin.com/in/patricio-rodriguez-4544662a2/" className='hover:text-marron-100'>©Patricio Rodriguez</a>
       </div>
     </>
   )
