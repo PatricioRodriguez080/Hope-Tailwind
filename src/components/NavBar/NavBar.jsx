@@ -63,7 +63,7 @@ const NavBar = () => {
             <li className="nav-item">
               <ScrollLink
                 className="py-2 flex items-center text-xs uppercase leading-snug cursor-pointer text-white hover:opacity-75 lg:px-3"
-                to="contact"
+                to="contacto"
                 smooth={true}
                 duration={500}
                 offset={-70}

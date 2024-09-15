@@ -4,7 +4,7 @@ import FormContacto from './FormContacto'
 
 const SectionContacto = () => {
     return (
-        <section className='bg-maderas-contacto'>
+        <section id='contacto' className='bg-maderas-contacto'>
             <WaveContacto />
             <h2 className='text-center font-custom text-5xl text-white mb-4'>Contáctanos</h2>
             <div className='flex flex-col w-full md:flex-row'>
