@@ -9,9 +9,9 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
-        <Routes>
-          <Route path='/' element={<Inicio />} />
-        </Routes>
+      <Routes>
+        <Route path='/' element={<Inicio />} />
+      </Routes>
       <Footer />
     </BrowserRouter>
   )
