@@ -44,7 +44,7 @@ const FormContacto = () => {
         ></textarea>
       </div>
 
-      <div className="text-center">
+      <div className="text-center pb-4">
         <button type="submit" className="px-6 py-2 bg-marron-100 text-white rounded-lg hover:bg-marron-300 transition-colors" required>Enviar</button>
       </div>
     </form>

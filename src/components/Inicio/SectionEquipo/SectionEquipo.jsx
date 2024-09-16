@@ -11,7 +11,7 @@ const SectionEquipo = () => {
         <WaveEquipo />
         <div className='bg-marron-200 text-center text-white'>
           <h2 className='font-custom text-5xl'>Equipo</h2>
-          <h3 className='font-custom text-2xl'>Te presentamos a nuestro equipo</h3>
+          <h3 className='font-custom text-2xl mb-10'>Te presentamos a nuestro equipo</h3>
           <EmpleadoListContainer />
         </div>
       </div>

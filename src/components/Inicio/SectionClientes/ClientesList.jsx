@@ -2,6 +2,7 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/pagination'
+import './swiperCustom.css'
 import 'swiper/css/autoplay'
 import { Pagination, Autoplay } from 'swiper/modules'
 import Cliente from './Cliente'
@@ -25,7 +26,7 @@ const ClientesList = ({ clientes }) => {
       }}
     >
       {clientes.map(cliente => (
-        <SwiperSlide key={cliente.id} className='h-[350px]'>
+        <SwiperSlide key={cliente.id} className='h-[300px]'>
           <Cliente {...cliente} />
         </SwiperSlide>
       ))}

@@ -9,7 +9,7 @@ const NavBar = () => {
       <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <ScrollLink to="home" smooth={true} duration={500}>
-            <img src="./images/LogoHope.png" alt="logo" />
+            <img src="./images/LogoHope.png" className='cursor-pointer' alt="logo" />
           </ScrollLink>
           <button
             className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -29,7 +29,7 @@ const NavBar = () => {
           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
             <li className="nav-item">
               <ScrollLink
-                className="py-2 flex items-center text-xs uppercase leading-snug cursor-pointer text-white hover:opacity-75 lg:px-3"
+                className="py-2 flex items-center text-base uppercase leading-snug cursor-pointer text-white hover:opacity-75 lg:px-3"
                 to="servicios"
                 smooth={true}
                 duration={500}
@@ -40,7 +40,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <ScrollLink
-                className="py-2 flex items-center text-xs uppercase leading-snug cursor-pointer text-white hover:opacity-75 lg:px-3"
+                className="py-2 flex items-center text-base uppercase leading-snug cursor-pointer text-white hover:opacity-75 lg:px-3"
                 to="productos"
                 smooth={true}
                 duration={500}
@@ -51,7 +51,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <ScrollLink
-                className="py-2 flex items-center text-xs uppercase leading-snug cursor-pointer text-white hover:opacity-75 lg:px-3"
+                className="py-2 flex items-center text-base uppercase leading-snug cursor-pointer text-white hover:opacity-75 lg:px-3"
                 to="equipo"
                 smooth={true}
                 duration={500}
@@ -62,7 +62,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <ScrollLink
-                className="py-2 flex items-center text-xs uppercase leading-snug cursor-pointer text-white hover:opacity-75 lg:px-3"
+                className="py-2 flex items-center text-base uppercase leading-snug cursor-pointer text-white hover:opacity-75 lg:px-3"
                 to="contacto"
                 smooth={true}
                 duration={500}
