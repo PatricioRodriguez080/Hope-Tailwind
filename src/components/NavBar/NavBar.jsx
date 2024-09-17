@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { Link as ScrollLink } from 'react-scroll'
 
 const NavBar = () => {
@@ -8,9 +9,9 @@ const NavBar = () => {
     <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-marron-300 font-custom">
       <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-          <ScrollLink to="home" smooth={true} duration={500}>
+          <Link to={"/"}>
             <img src="./images/LogoHope.png" className='cursor-pointer' alt="logo" />
-          </ScrollLink>
+          </Link>
           <button
             className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
             type="button"
