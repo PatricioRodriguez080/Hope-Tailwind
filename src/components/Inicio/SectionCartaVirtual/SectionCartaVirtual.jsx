@@ -4,9 +4,9 @@ import Menu from './Menu'
 const SectionCartaVirtual = () => {
   const categorias = [
     "Cafe",
-    "Torta",
+    "Tortas",
     "Salado",
-    "Masa"
+    "Masas"
   ]
 
   return (
