@@ -24,8 +24,8 @@ const ProductoListContainer = () => {
     }, [categoriaSelecionada])
 
     return (
-        <div className='bg-red-500'>
-            {loading ? <SkeletonProductos /> : <ProductoList productos={productosAMostrar} />}
+        <div className='bg-marron-100 lg:px-28 pb-10'>
+            {loading ? <SkeletonProductos /> : <ProductoList productos={productosAMostrar} categoriaSelecionada={categoriaSelecionada} />}
         </div>
     )
 }
