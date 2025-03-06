@@ -16,7 +16,6 @@ const db = getFirestore()
 
 export const getProductos = async (categoria) => {
     try {
-        console.log(categoria)
         let productosCollection = collection(db, "Productos")
         let productosQuery = query(productosCollection, where("Categoria", "==", categoria))
         const snapshot = await getDocs(productosQuery)
