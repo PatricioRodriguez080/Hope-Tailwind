@@ -15,6 +15,8 @@ const ProductoListContainer = () => {
                 const productos = await getProductos(categoriaSelecionada)
                 setProductosAMostrar(productos)
                 setLoading(false)
+                console.log(categoriaSelecionada)
+                console.log(productosAMostrar)
             } catch (error) {
                 console.log("Error al traer productos")
             }
