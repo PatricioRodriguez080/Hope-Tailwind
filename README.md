@@ -1,4 +1,4 @@
-# ⚛️ Proyecto Final ReactJS
+# ⚛️ Proyecto Hope Tailwind
 ¡Bienvenido/a al repositorio de Hope Tailwind!
 
 ## 📦 Descripción del Proyecto
