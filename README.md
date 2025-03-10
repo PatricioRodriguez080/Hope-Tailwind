@@ -20,4 +20,4 @@ Volví a trabajar en la página que diseñé y desarrollé para hope, pero esta 
 ![Carta virtual y productos](public/images/Readme4.png)
 
 ## ❔Donde puedo ver el proyecto? 
-Puedes ver el proyecto en: [Universe Factory Shop](https://hope-tailwind.vercel.app).
+Puedes ver el proyecto en: [Hope Tailwind](https://hope-tailwind.vercel.app).
